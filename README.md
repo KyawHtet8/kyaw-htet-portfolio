@@ -6,7 +6,7 @@ Responsive React portfolio for showcasing cloud infrastructure, DevOps, platform
 
 The production site is deployed with Vercel:
 
-**https://kyaw-htet-portfolio-latest.vercel.app/**
+**https://my-pofo-wine.vercel.app/**
 
 The project is connected to GitHub and can be deployed automatically by importing the repository into Vercel. Use the following settings:
 
