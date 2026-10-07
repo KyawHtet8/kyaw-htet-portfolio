@@ -1,0 +1,4 @@
+import React from 'react';
+import { capabilities, toolkit } from '../../data/portfolioData';
+
+export default function Capabilities() { return <section id="capabilities" className="section section-muted"><div className="container"><div className="section-heading"><div><p className="eyebrow">What I bring</p><h2>From commit to <span>cloud.</span></h2></div><p>My strength is connecting software engineering practices with the operational discipline needed to run dependable services.</p></div><div className="capability-grid">{capabilities.map(({ icon: Icon, title, text }) => <div className="capability-card" key={title}><Icon size={25} /><h3>{title}</h3><p>{text}</p></div>)}</div><div className="toolkit"><p className="eyebrow">Core toolkit</p><div className="tag-list">{toolkit.map((tool) => <span key={tool}>{tool}</span>)}</div></div></div></section>; }
