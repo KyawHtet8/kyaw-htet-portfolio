@@ -1,4 +1,21 @@
-# Getting Started with Create React App
+# Kyaw Htet Portfolio
+
+Responsive React portfolio for showcasing cloud infrastructure, DevOps, platform engineering, and full-stack projects.
+
+## Live deployment
+
+The production site is deployed with Vercel:
+
+**https://kyaw-htet-portfolio-latest.vercel.app/**
+
+The project is connected to GitHub and can be deployed automatically by importing the repository into Vercel. Use the following settings:
+
+- Framework preset: **Create React App**
+- Build command: `npm run build`
+- Output directory: `build`
+- Install command: `npm install`
+
+Every new push to the configured production branch can trigger a new Vercel deployment.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
